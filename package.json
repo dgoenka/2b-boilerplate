@@ -2,11 +2,18 @@
   "name": "2b-boilerplate",
   "version": "1.0.0",
   "description": "_We're looking at your programming ability. It must not only work, it should be maintainable._",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "axios": "1.2.2"
+  }
 }
